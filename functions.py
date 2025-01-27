@@ -10,9 +10,10 @@ def cart(tauarlar):
     while True:
         id = int(input("Алғыңыз келген тауардың айдиін енгізіңіз: "))
         if id == 0:
-            for x in range(len(korzina)):
-                print(f"{tauarlar[korzina[x]]["name"]} {tauarlar[korzina[x]]["bagasy"]}тг * {korzina_sany[x]} {tauarlar[korzina[x]]["olshemi"]}")
-            print(f"Итого: {total_sum}")
+            # осы жерге 
+            # Картошка 200тг * 5 кг
+            # Итого: 1000
+            # консольға осы форматта шығаратын код жазу қажет
         else:
             korzina.append(id)
             quantity = int(input(f"Қанша {tauarlar[id]["olshemi"]} алғыңыз келеді: "))
